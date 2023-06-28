@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.108.0">
+  <title>Kazaire Community</title>
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/home.css" rel="stylesheet">
+  <link href="css/carousel.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="images/kazaire_logo.jpg" alt="Kazaire Logo" width="30px" height="30px"> Kazaire Community</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="gallery.html">Gallery</a>
+            </li>
+            <!--<li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
+          </li>-->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">Social</a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="https://www.facebook.com/KazaireTV" target="_blank">Facebook Page</a></li>
+                <li><a class="dropdown-item" href="https://www.youtube.com/@kazaire4690" target="_blank">Youtube Channel</a></li>
+                <li><a class="dropdown-item" href="https://discord.gg/Ndh8YBKTdQ" target="_blank">Discord Server</a></li>
+              </ul>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <!--<button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-warning">Sign-up</button>-->
+            <span class="like-us">Like Kazaire at <a href="https://www.facebook.com/KazaireTV" class="facebook-page" target="_blank">
+                <i class="fa fa-facebook-square" aria-hidden="true" style></i> Facebook</span></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="carousel-img" src="images/carousel_1.jpg">
+          <div class="container">
+            <div class="carousel-caption text-start">
+              <h1 class="carousel-header">Welcome to Kazaire Community!</h1>
+              <p>A loving gaming community of a streamer named Kazaire! You can watch his videos by clicking the "Watch Now!" button.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/@kazaire4690" target="_blank">Watch Now!</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-img" src="images/carousel_2.jpg">
+          <div class="container">
+            <div class="carousel-caption">
+              <h1 class="">Meet the loving members of the Community!</h1>
+              <p>Most of them are Kazaire's most trusted friends and close teammates.</p>
+              <p><a class="btn btn-lg btn-primary" href="https://discord.gg/Ndh8YBKTdQ" target="_blank">Discord</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img class="carousel-img" src="images/carousel_3.jpg">
+          <div class="container">
+            <div class="carousel-caption text-end">
+              <h1 class="">Wow... Photographist!</h1>
+              <p class="">You can view some meme(o)rable pictures.</p>
+              <p><a class="btn btn-lg btn-primary" href="gallery.html">Browse Gallery</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true" hidden></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true" hidden></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Marketing messaging and featurettes
+  ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    <div class="container marketing">
+
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="images/founder_2.jpg" width="140" height="140">
+          <h2 class="fw-normal" style="color: white;">Discord Manager</h2>
+          <p style="color: white;">Joaquie "Waki" Dolera</p>
+          <p><a class="btn btn-primary" href="https://www.facebook.com/joaquie.dolera" target="_blank">Facebook &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="images/founder_1.jpg" width="140" height="140">
+          <h2 class="fw-normal" style="color: white;">The Founder</h2>
+          <p style="color: white;">Jericho "Echo" Estares</p>
+          <p><a class="btn btn-primary" href="https://www.facebook.com/echo.estares" target="_blank">Facebook &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="bd-placeholder-img rounded-circle" src="images/founder_3.jpg" width="140" height="140">
+          <h2 class="fw-normal" style="color: white;">Community Manager</h2>
+          <p style="color: white;">Samuel Migs "Sammeh" Gamay</p>
+          <p><a class="btn btn-primary" href="https://www.facebook.com/SMGamay" target="_blank">Facebook &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider" style="color: white;">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1" style="color: white;">How did the community start?</h2>
+          <p class="lead" style="color: white;">Sammeh is the one who created the community before Kazaire even asked for it.
+            He was Kazaire's biggest fan and is willing to risk his life for everything just for the sake of his idol.
+            He was also one of Kazaire's best buddies and is willing to play with Kazaire even tho he is tired as hell.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/echo_and_sammeh.jpg" width="500" height="500">
+        </div>
+      </div>
+
+      <hr class="featurette-divider" style="color: white;">
+
+      <div class="row featurette">
+        <div class="col-md-7 order-md-2">
+          <h2 class="featurette-heading fw-normal lh-1" style="color: white;">Discord Server? Wow! Guitarer?? Wower!</h2>
+          <p class="lead" style="color: white;"> I don't know why the title above is like that??
+            Anyway, there are many unique members inside the community.
+            Like this guy named, Wen. His real-life skills are impeccable even in playing games.</p>
+        </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/wen_rock.jpg" width="500" height="500">
+        </div>
+      </div>
+
+      <hr class="featurette-divider" style="color: white;">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1" style="color: white;">Social Gathering</h2>
+          <p class="lead" style="color: white;">Kazaire sometimes plans a gathering of the community where the members and his friends go to a random place and socialize.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" src="images/mang_inasal.jpg" width="500" height="500">
+        </div>
+      </div>
+
+      <hr class="featurette-divider" style="color: white;">
+
+      <!-- /END THE FEATURETTES -->
+
+    </div><!-- /.container -->
+
+    <!-- FOOTER -->
+    <footer class="container">
+      <p class="float-end"><a href="#">Back to top</a></p>
+      <p class="home-footer">&copy; 2020 - <script>
+          document.write(new Date().getFullYear());
+        </script> <a href="index.html">Kazaire</a>. All rights reserved.
+        <!--&middot; <a href="#">Privacy</a> &middot; 
+      <a href="#">Terms</a>-->
+      </p>
+    </footer>
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
