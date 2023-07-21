@@ -22,3 +22,7 @@ a.facebook-page:hover {
 .follow-kazaire {
   color: rgba(255, 255, 255, 0.5);
 }
+
+p.footer-color {
+  color: white;
+}
