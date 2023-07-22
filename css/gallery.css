@@ -155,8 +155,8 @@ h2 {
   transition: transform 0.15s ease 0s;
   -webkit-transform: scale3d(1, 1, 1);
   transform: scale3d(1, 1, 1);
-  height: 165px;
-  width: 165px;
+  height: 165px; /* Remove this if not needed. */
+  width: 165px; /* Change this back to 100% if needed. */
 }
 .demo-gallery > ul > li a:hover > img {
   -webkit-transform: scale3d(1.1, 1.1, 1.1);
