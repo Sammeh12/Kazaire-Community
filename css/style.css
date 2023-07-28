@@ -26,3 +26,97 @@ a.facebook-page:hover {
 p.footer-color {
   color: white;
 }
+
+/*------------------
+  Feature Section
+---------------------*/
+
+.feature-item {
+  height: 415px;
+  position: relative;
+}
+
+.feature-item:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: #000;
+  opacity: 0.65;
+}
+
+.feature-item .cata {
+  position: relative;
+  margin-top: 28px;
+  margin-left: 29px;
+  z-index: 3;
+}
+
+.feature-item .fi-content {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  padding: 0 26px 24px;
+  z-index: 2;
+}
+
+.feature-item .fi-content h5 {
+  margin-bottom: 18px;
+}
+
+.feature-item .fi-content .fi-comment {
+  font-size: 12px;
+  opacity: 0.54;
+}
+
+.set-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.spad {
+  padding-top: 97px;
+  padding-bottom: 97px;
+}
+
+.cata {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  padding: 6px 25px;
+}
+
+.cata.action {
+  background: #ff205f;
+}
+
+.cata.fps {
+  background: #4eae60;
+}
+
+.cata.moba {
+  background: #694eae;
+}
+
+.cata.rpg {
+  background: #40abf5;
+}
+
+.text-white h1,
+.text-white h2,
+.text-white h3,
+.text-white h4,
+.text-white h5,
+.text-white h6,
+.text-white p,
+.text-white span,
+.text-white li,
+.text-white a {
+  color: #fff;
+}
